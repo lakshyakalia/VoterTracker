@@ -84,7 +84,7 @@ public class Main {
                     addVoterSubmenuCount = 0;
                     System.out.println("Please enter a postal code to display all voters residing there >");
                     String pcode = sc.nextLine();
-                    findVotersBy(pcode);
+                    findVotersBy(pcode.toCharArray());
                     break;
                 case 4:
                     goBack = -999;
@@ -368,12 +368,12 @@ public class Main {
      * Finds all the voters who live in that
      * postal code which is entered by the
      * user
-     * @param pcode of type string
+     * @param pcode of type char array
      */
-    public static void findVotersBy(String pcode){
+    public static void findVotersBy(char[] pcode){
         boolean flag = false;
         for(int i = 0 ; i < voterCount ; i++){
-            if(voterBase[i].getVoterPcode().equalsIgnoreCase(pcode)){
+            if(voterBase[i].getVoterPcode().equalsIgnoreCase(new String(pcode))){
                 flag = true;
                 System.out.println(voterBase[i]);
                 System.out.println("");
