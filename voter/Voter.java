@@ -69,7 +69,8 @@ public class Voter {
 
     @Override
     public String toString() {
-        return voterName + " " + voterAge + " " + voterEmail + " " + new String(voterPcode);
+        return "Voter Name: " + voterName + "\n" + "Voter Age: " + voterAge + "\n" +
+                "Voter Email: " + voterEmail + "\n" + "Voter PCode: " + new String(voterPcode);
     }
 
     public static int findNumberOfCreatedVoter() {
