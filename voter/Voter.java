@@ -19,11 +19,13 @@ public class Voter {
     private  char[] voterPcode;
 
     /** Description of countInstance
+     *
      * Counter to keep track of instances of Voter class
      */
     private static int countInstance = 0;
 
     /** Description of Voter()
+     *
      * Default Constructor initializing values
      */
     public Voter(){
@@ -38,6 +40,7 @@ public class Voter {
     }
 
     /** Description of Voter(String name, byte age, String email, char[] pcode)
+     *
      * Parameterized Constructor setting values
      * @param name voter name (String)
      * @param age voter age (byte)
@@ -91,17 +94,21 @@ public class Voter {
     }
 
     /** Description of toString()
+     *
      * Overrides the default toString function
      * @return voter's name, age, email and postal code
      * instead of the address of the voter object
      */
     @Override
     public String toString() {
-        return "Voter Name: " + voterName + "\n" + "Voter Age: " + voterAge + "\n" +
-                "Voter Email: " + voterEmail + "\n" + "Voter PCode: " + new String(voterPcode);
+        return "Voter Name: " + voterName + "\n" +
+                "Voter Age: " + voterAge + "\n" +
+                "Voter Email: " + voterEmail + "\n" +
+                "Voter PCode: " + new String(voterPcode);
     }
 
     /** Description of findNumberOfCreatedVoter()
+     *
      * @return countInstance variable which
      * stores the instances of voter objects created
      */
@@ -110,9 +117,9 @@ public class Voter {
     }
 
     /** Description of equals(Voter voter)
+     *
      * Compares 2 objects and checks if they have
      * the same voterID and voterPcode
-     * @param voter
      * @return boolean
      */
     public boolean equals(Voter voter) {
@@ -125,6 +132,7 @@ public class Voter {
     }
 
     /** Main method
+     *
      * For Part II A
       */
     public static void main(String[] args) {
