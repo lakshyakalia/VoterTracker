@@ -91,7 +91,7 @@ public class Main {
         if(pass.equals(password)){
             System.out.println("How many voters you want to enter? >");
             int numOfVoterToEnter = Integer.parseInt(sc.nextLine());
-            if(voterBase.length - voterCount >= numOfVoterToEnter){
+            if(voterBase.length - voterCount >= numOfVoterToEnter && numOfVoterToEnter!=0){
                 addVoters(numOfVoterToEnter);
             }
             else{
