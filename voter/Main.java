@@ -46,12 +46,12 @@ public class Main {
      * For displaying the main menu
      */
     public static void displayMainMenu(){
-        System.out.println("What do you want to do?" +
-                "\t" + "1. Enter new voters (password required)" +
-                "\t" + "2. Change information of a voter (password required)" +
-                "\t" + "3. Display all voters by a specific voterPcode" +
-                "\t" + "4. Display all voters under a certain age." +
-                "\t" + "5. Quit" +
+        System.out.println("What do you want to do?" + "\n" +
+                "\t" + "1. Enter new voters (password required)" + "\n" +
+                "\t" + "2. Change information of a voter (password required)" + "\n" +
+                "\t" + "3. Display all voters by a specific voterPcode" + "\n" +
+                "\t" + "4. Display all voters under a certain age." + "\n" +
+                "\t" + "5. Quit" + "\n" +
                 "Please enter your choice >");
     }
 
