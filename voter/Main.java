@@ -121,6 +121,7 @@ public class Main {
 
 
         }
+        System.out.println(numOfVoterToEnter + " Voter(s) added.");
         voterCount+= numOfVoterToEnter;
     }
 
