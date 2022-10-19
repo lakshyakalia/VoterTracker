@@ -3,9 +3,9 @@ package com.assignment.voter;
 /**
  * ----------------------------------
  * Assignment 1
- * ©Lakshya Kalia
- * Written by: Lakshya Kalia 40220721
- * @author Lakshya Kalia
+ * ©Lakshya KALIA
+ * Written by: Lakshya KALIA 40220721
+ * @author Lakshya KALIA
  * @version 1.0
  * ----------------------------------
  */

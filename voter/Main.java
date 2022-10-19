@@ -3,9 +3,9 @@ package com.assignment.voter;
 /**
  * ----------------------------------
  * Assignment 1
- * ©Lakshya Kalia
- * Written by: Lakshya Kalia 40220721
- * @author Lakshya Kalia
+ * ©Lakshya KALIA
+ * Written by: Lakshya KALIA 40220721
+ * @author Lakshya KALIA
  * @version 1.0
  * ----------------------------------
  */
@@ -197,7 +197,7 @@ public class Main {
             char[] pcode = sc.nextLine().toCharArray();
 
             voterBase[i] = new Voter(name,age,email,pcode);
-
+            System.out.println("Voter ID: " + voterBase[i].getVoterID());
 
         }
         System.out.println(numOfVoterToEnter + " Voter(s) added.");
